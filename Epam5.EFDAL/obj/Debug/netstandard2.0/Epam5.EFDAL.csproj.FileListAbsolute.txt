@@ -1,0 +1,9 @@
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.EFDAL\bin\Debug\netstandard2.0\Epam5.EFDAL.deps.json
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.EFDAL\bin\Debug\netstandard2.0\Epam5.EFDAL.dll
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.EFDAL\obj\Debug\netstandard2.0\Epam5.EFDAL.csprojAssemblyReference.cache
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.EFDAL\obj\Debug\netstandard2.0\Epam5.EFDAL.AssemblyInfoInputs.cache
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.EFDAL\obj\Debug\netstandard2.0\Epam5.EFDAL.AssemblyInfo.cs
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.EFDAL\bin\Debug\netstandard2.0\Epam5.EFDAL.pdb
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.EFDAL\obj\Debug\netstandard2.0\Epam5.EFDAL.dll
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.EFDAL\obj\Debug\netstandard2.0\Epam5.EFDAL.pdb
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.EFDAL\bin\Debug\netstandard2.0\Epam5.EFDAL.dll.config

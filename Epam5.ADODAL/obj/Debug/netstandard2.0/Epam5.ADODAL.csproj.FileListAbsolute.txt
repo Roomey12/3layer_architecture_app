@@ -1,0 +1,8 @@
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\bin\Debug\netstandard2.0\Epam5.ADODAL.deps.json
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\bin\Debug\netstandard2.0\Epam5.ADODAL.dll
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\obj\Debug\netstandard2.0\Epam5.ADODAL.csprojAssemblyReference.cache
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\obj\Debug\netstandard2.0\Epam5.ADODAL.AssemblyInfoInputs.cache
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\obj\Debug\netstandard2.0\Epam5.ADODAL.AssemblyInfo.cs
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\bin\Debug\netstandard2.0\Epam5.ADODAL.pdb
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\obj\Debug\netstandard2.0\Epam5.ADODAL.dll
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\obj\Debug\netstandard2.0\Epam5.ADODAL.pdb

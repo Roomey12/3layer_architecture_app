@@ -1,0 +1,248 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.BLL\\Epam5.BLL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.ADODAL\\Epam5.ADODAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.ADODAL\\Epam5.ADODAL.csproj",
+        "projectName": "Epam5.ADODAL",
+        "projectPath": "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.ADODAL\\Epam5.ADODAL.csproj",
+        "packagesPath": "C:\\Users\\roomey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.ADODAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\roomey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.EFDAL\\Epam5.EFDAL.csproj": {
+                "projectPath": "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.EFDAL\\Epam5.EFDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.BLL\\Epam5.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.BLL\\Epam5.BLL.csproj",
+        "projectName": "Epam5.BLL",
+        "projectPath": "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.BLL\\Epam5.BLL.csproj",
+        "packagesPath": "C:\\Users\\roomey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\roomey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.ADODAL\\Epam5.ADODAL.csproj": {
+                "projectPath": "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.ADODAL\\Epam5.ADODAL.csproj"
+              },
+              "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.EFDAL\\Epam5.EFDAL.csproj": {
+                "projectPath": "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.EFDAL\\Epam5.EFDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.EFDAL\\Epam5.EFDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.EFDAL\\Epam5.EFDAL.csproj",
+        "projectName": "Epam5.EFDAL",
+        "projectPath": "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.EFDAL\\Epam5.EFDAL.csproj",
+        "packagesPath": "C:\\Users\\roomey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roomey\\Desktop\\c#\\Epam5\\Epam5.EFDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\roomey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
