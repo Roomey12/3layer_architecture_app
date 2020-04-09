@@ -10,6 +10,7 @@
       "Epam5.ADODAL/1.0.0": {
         "dependencies": {
           "EntityFramework": "6.4.0",
+          "Epam5.EFDAL": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Microsoft.Extensions.Configuration": "3.1.3",
@@ -1310,6 +1311,20 @@
             "fileVersion": "4.6.24705.1"
           }
         }
+      },
+      "Epam5.EFDAL/1.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.4.0",
+          "Microsoft.EntityFrameworkCore": "3.1.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
+          "Microsoft.Extensions.Configuration": "3.1.3",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.2.0",
+          "Microsoft.Extensions.Configuration.Json": "2.2.0",
+          "System.Configuration.ConfigurationManager": "4.7.0"
+        },
+        "runtime": {
+          "Epam5.EFDAL.dll": {}
+        }
       }
     }
   },
@@ -2151,6 +2166,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "Epam5.EFDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

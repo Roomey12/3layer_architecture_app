@@ -4,6 +4,7 @@ using Epam5.ADODAL.Interfaces;
 using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Epam5.ADODAL.Repositories
@@ -34,8 +35,12 @@ namespace Epam5.ADODAL.Repositories
 
         public IEnumerable<Product> GetAll()
         {
-            OpenConnection();
+            VendorRepository v = new VendorRepository();
+            var Vendors = v.GetAll();
+            CategoryRepository c = new CategoryRepository();
+            var Categories = c.GetAll();
             List<Product> products = new List<Product>();
+            OpenConnection();
             string sqlExpression = "Select * From Products";
             SqlCommand command = new SqlCommand(sqlExpression, connection);
             SqlDataReader reader = command.ExecuteReader();
@@ -46,10 +51,12 @@ namespace Epam5.ADODAL.Repositories
                     products.Add(new Product()
                     {
                         Id = (int)reader["Id"],
-                        ProductName = (string)reader["VendorName"],
+                        ProductName = (string)reader["ProductName"],
                         Price = (float)reader["Price"],
                         CategoryId = (int)reader["CategoryId"],
-                        VendorId = (int)reader["VendorId"]
+                        VendorId = (int)reader["VendorId"],
+                        Vendor = Vendors.Where(x=>x.Id == (int)reader["VendorId"]).FirstOrDefault(),
+                        Category = Categories.Where(x=>x.Id == (int)reader["CategoryId"]).FirstOrDefault()
                     });
                 }
             }

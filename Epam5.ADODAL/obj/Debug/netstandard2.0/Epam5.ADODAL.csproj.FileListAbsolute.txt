@@ -6,3 +6,7 @@ C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\obj\Debug\netstandard2.0\Epam5.ADO
 C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\bin\Debug\netstandard2.0\Epam5.ADODAL.pdb
 C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\obj\Debug\netstandard2.0\Epam5.ADODAL.dll
 C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\obj\Debug\netstandard2.0\Epam5.ADODAL.pdb
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\bin\Debug\netstandard2.0\Epam5.EFDAL.dll
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\bin\Debug\netstandard2.0\Epam5.EFDAL.pdb
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\bin\Debug\netstandard2.0\Epam5.EFDAL.dll.config
+C:\Users\roomey\Desktop\c#\Epam5\Epam5.ADODAL\obj\Debug\netstandard2.0\Epam5.ADODAL.csproj.CopyComplete

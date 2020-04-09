@@ -13,17 +13,21 @@ namespace Epam5.PL
     {
         static void Main(string[] args)
         {
-            using ApplicationContext db = new ApplicationContext();
-            ADOUnitOfWork auof = new ADOUnitOfWork();
-            //EFUnitOfWork sas = (EFUnitOfWork)auof;
-            EFUnitOfWork uof = new EFUnitOfWork(db);
-            Console.WriteLine(uof.GetType().Name);
-            Service s = new Service(uof);
-            s.OutputAllData();
-            var res = s.GetVendorsByCategory(3);
-            foreach(var e in res)
+            Console.WriteLine("1. Entity Framework Core\n2. ADO.NET");
+            Console.Write("Enter menu item:");
+            int key = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+            switch (key)
             {
-                Console.WriteLine(e);
+                case 1:
+                    EFCall.MENU();
+                    break;
+                case 2:
+                    ADOCall.MENU();
+                    break;
+                default:
+                    Console.WriteLine("There are no such menu item! Please try again!");
+                    break;
             }
         }
     }
